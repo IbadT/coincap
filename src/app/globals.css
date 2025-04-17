@@ -22,5 +22,28 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-family: "Nekst-Medium", sans-serif;
 }
+
+.custom-dropdown {
+  background-color: #5F29B7 !important;
+  color: white !important;
+}
+
+.custom-dropdown .ant-dropdown-menu-item {
+  color: white !important;
+}
+
+.custom-dropdown .ant-dropdown-menu-item:hover {
+  background-color: #7329D9 !important;
+}
+
+
+
+/*@font-face {*/
+/*  font-family: "Nekst-Medium";*/
+/*  src: url("/fonts/Nekst-Medium.woff2") format("woff2");*/
+/*  font-weight: 500;*/
+/*  font-style: normal;*/
+/*}*/
